@@ -10,9 +10,6 @@ body {
     margin: 0;
 }
 
-
-
-
 section {
     display: grid;
     place-items: center;
