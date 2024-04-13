@@ -10,36 +10,6 @@ body {
     margin: 0;
 }
 
-section {
-    display: grid;
-    place-items: center;
-    align-content: center ;
-    min-height: 25vh;
-}
-
-
-.navigation {
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    color: white;
-    padding: 0;
-    border-radius: 20 px;
-    margin: 0 10px;
-    font-weight: 600;
-    z-index: 1;
-    gap: 2em;
-}
-
-.navigation ul:hover {
-    background: white;
-    color: rgb(123, 100, 226);
-    border-radius: 100px;
-    z-index: 1;
-    padding: 0 10px;
-}
-
-
 .hidden {
     opacity: 0;
     filter: blur (10px);
@@ -77,12 +47,6 @@ section {
     border-radius: 10px;
     padding: 1rem;
     margin: 0.05 rem;
-}
-
-.about {
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
 }
 
 .project-bubble {
